@@ -66,7 +66,8 @@ public class Steps {
 	@Given("^I load the Top Rated Movies page$")
 	public void I_load_the_Top_Rated_Movies_page()  {
 		
-		System.setProperty("webdriver.chrome.driver",  "C://Selenium drivers//chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver",  "C://Selenium drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",  "./drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.imdb.com/chart/top"); 
 		//wait for page to load just incase it takes longer than useual.

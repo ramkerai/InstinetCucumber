@@ -315,7 +315,7 @@ formatter.match({
   "location": "Steps.I_load_the_Top_Rated_Movies_page()"
 });
 formatter.result({
-  "duration": 8760655600,
+  "duration": 9049240900,
   "status": "passed"
 });
 formatter.match({
@@ -328,15 +328,15 @@ formatter.match({
   "location": "Steps.I_refine_by_Genre(String)"
 });
 formatter.result({
-  "duration": 3086080800,
+  "duration": 4209850600,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_list_of_movies_should_only_contain_relevant_results()"
 });
 formatter.result({
-  "duration": 78291900,
-  "error_message": "junit.framework.AssertionFailedError: Item number 1 not of comedy genre\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat stepDefinition.Steps.the_list_of_movies_should_only_contain_relevant_results(Steps.java:99)\r\n\tat ✽.Then the list of movies should only contain relevant results(TopRatedMoves.feature:11)\r\n",
+  "duration": 84883300,
+  "error_message": "junit.framework.AssertionFailedError: Item number 1 not of comedy genre\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat stepDefinition.Steps.the_list_of_movies_should_only_contain_relevant_results(Steps.java:100)\r\n\tat ✽.Then the list of movies should only contain relevant results(TopRatedMoves.feature:11)\r\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -366,7 +366,7 @@ formatter.match({
   "location": "Steps.I_load_the_Top_Rated_Movies_page()"
 });
 formatter.result({
-  "duration": 8622487900,
+  "duration": 8104848300,
   "status": "passed"
 });
 formatter.match({
@@ -379,14 +379,14 @@ formatter.match({
   "location": "Steps.I_sort_the_list_by(String)"
 });
 formatter.result({
-  "duration": 1093514800,
+  "duration": 1156426700,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_list_of_movies_should_be_displayed_in_order_of_release_date()"
 });
 formatter.result({
-  "duration": 16778419100,
+  "duration": 17210128100,
   "status": "passed"
 });
 });
